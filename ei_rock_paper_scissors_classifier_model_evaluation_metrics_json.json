@@ -1,0 +1,135 @@
+{
+    "version": 5,
+    "validation": {
+        "float32": {
+            "confusion_matrix": [
+                [
+                    272,
+                    119,
+                    70
+                ],
+                [
+                    77,
+                    428,
+                    0
+                ],
+                [
+                    2,
+                    6,
+                    499
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.7749287749287749,
+                    "recall": 0.5900216919739696,
+                    "f1-score": 0.6699507389162562,
+                    "support": 461
+                },
+                "1": {
+                    "precision": 0.7739602169981917,
+                    "recall": 0.8475247524752475,
+                    "f1-score": 0.8090737240075614,
+                    "support": 505
+                },
+                "2": {
+                    "precision": 0.8769771528998243,
+                    "recall": 0.9842209072978304,
+                    "f1-score": 0.9275092936802973,
+                    "support": 507
+                },
+                "accuracy": 0.8139850644942295,
+                "macro avg": {
+                    "precision": 0.8086220482755969,
+                    "recall": 0.8072557839156825,
+                    "f1-score": 0.8021779188680384,
+                    "support": 1473
+                },
+                "weighted avg": {
+                    "precision": 0.8097213111652838,
+                    "recall": 0.8139850644942295,
+                    "f1-score": 0.8062978500747613,
+                    "support": 1473
+                }
+            },
+            "roc_auc": 0.8998706356317503,
+            "loss": 0.612817144640541,
+            "support": 1473,
+            "weighted_average": {
+                "precision": 0.8097213111652838,
+                "recall": 0.8139850644942295,
+                "f1-score": 0.8062978500747613
+            },
+            "class_names": [
+                "paper",
+                "rock",
+                "scissors"
+            ]
+        },
+        "int8": {
+            "confusion_matrix": [
+                [
+                    0,
+                    459,
+                    2
+                ],
+                [
+                    1,
+                    502,
+                    2
+                ],
+                [
+                    0,
+                    504,
+                    3
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 461
+                },
+                "1": {
+                    "precision": 0.34266211604095564,
+                    "recall": 0.994059405940594,
+                    "f1-score": 0.5096446700507614,
+                    "support": 505
+                },
+                "2": {
+                    "precision": 0.42857142857142855,
+                    "recall": 0.005917159763313609,
+                    "f1-score": 0.011673151750972763,
+                    "support": 507
+                },
+                "accuracy": 0.3428377460964019,
+                "macro avg": {
+                    "precision": 0.25707784820412805,
+                    "recall": 0.33332552190130255,
+                    "f1-score": 0.17377260726724472,
+                    "support": 1473
+                },
+                "weighted avg": {
+                    "precision": 0.26498987297107734,
+                    "recall": 0.3428377460964019,
+                    "f1-score": 0.17874327651960467,
+                    "support": 1473
+                }
+            },
+            "roc_auc": 0.49893951950631327,
+            "loss": 1.6253765499928507,
+            "support": 1473,
+            "weighted_average": {
+                "precision": 0.26498987297107734,
+                "recall": 0.3428377460964019,
+                "f1-score": 0.17874327651960467
+            },
+            "class_names": [
+                "paper",
+                "rock",
+                "scissors"
+            ]
+        }
+    }
+}
